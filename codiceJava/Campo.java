@@ -61,7 +61,7 @@ public class Campo { //class that define the logical field of the game
             }
             c--;
         }
-        r = 3;
+        r = 4;
         c = 0;
         for (int indice = 0; indice < 4;indice++){
             if((vetPedine[r][c].getColore() == TipoColore.GIALLO && vetPedine[r-1][c+1].getColore() == TipoColore.GIALLO && vetPedine[r-2][c+2].getColore() == TipoColore.GIALLO && vetPedine[r-3][c+3].getColore() == TipoColore.GIALLO) ||( vetPedine[r][c].getColore() == TipoColore.ROSSO && vetPedine[r-1][c+1].getColore() == TipoColore.ROSSO && vetPedine[r-2][c+2].getColore() == TipoColore.ROSSO && vetPedine[r-3][c+3].getColore() == TipoColore.ROSSO)){
@@ -76,7 +76,7 @@ public class Campo { //class that define the logical field of the game
             }
             c--;
         }
-        r = 2;
+        r = 3;
         c = 0;
         for (int indice = 0; indice < 4;indice++){
             if((vetPedine[r][c].getColore() == TipoColore.GIALLO && vetPedine[r-1][c+1].getColore() == TipoColore.GIALLO && vetPedine[r-2][c+2].getColore() == TipoColore.GIALLO && vetPedine[r-3][c+3].getColore() == TipoColore.GIALLO) || (vetPedine[r][c].getColore() == TipoColore.ROSSO && vetPedine[r-1][c+1].getColore() == TipoColore.ROSSO && vetPedine[r-2][c+2].getColore() == TipoColore.ROSSO && vetPedine[r-3][c+3].getColore() == TipoColore.ROSSO)){
